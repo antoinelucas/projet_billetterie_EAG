@@ -12,13 +12,18 @@
   </head>
   <nav>
     <div class="container_nav">
-      <a class="nav-link" href="./register.php">S'inscrire</a>
+      <p>Bonjour
+        <?php
+		      include ('../donnees/bd_connexion.php');
+          $req = $bdd -> query('SELECT * FROM articledonnee WHERE'"');
+        ?>
+      </p>
     </div>
     <div class="container_nav">
-      <a class="nav-link" href="./register.php">S'inscrire</a>
+      <a class="nav-link" href="register.php">S'inscrire</a>
     </div>
     <div class="container_nav">
-      <a class="nav-link" href="./register.php">S'inscrire</a>
+      <a class="nav-link" href="register.php">S'inscrire</a>
     </div>
 
   </nav>
