@@ -9,3 +9,6 @@
     <title>Billetterie EAG</title>
     <link href="style_eag.css" rel="stylesheet">
   </head>
+  <body>
+    <h1>coucou tinou</h1>
+  </body>
