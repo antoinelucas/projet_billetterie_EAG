@@ -1,0 +1,46 @@
+#navbar_display{
+  /*background-color: blue;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+#navbar_display2{
+  /*background-color: green;*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.element-nav{
+  /*background-color: red;*/
+}
+
+#navbar_display_form {
+  /*background-color: red;*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar_style_input{
+    border:none;
+    margin: 4%;
+}
+
+#navbar_style_input_submit{
+  border: none;
+  background-color: transparent;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.9px;
+  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.5;
+  text-align: center;
+  margin-right: 5%;
+  margin-left: 5%;
+}
