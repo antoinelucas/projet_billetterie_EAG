@@ -4,4 +4,5 @@ session_start();
 
 unset($_SESSION['auth']);
 
-header('Location: http://eelslap.com/');
+header('Location: ../index.php');
+//http://eelslap.com/

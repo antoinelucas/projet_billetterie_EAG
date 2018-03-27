@@ -1,11 +1,48 @@
-#conteneur {
-background-color:red;
+#wallpaper-eag-match{
+background-color: #f7f7f9;
 display:flex;
-justify-content:space-between;
+justify-content:space-around;
+align-items:center;
+}
+
+#conteneur {
+background-color:#e30a0e;
+display:flex;
+justify-content:space-around;
 flex-flow: wrap row;
 }
 
-.match:nth-child(1){
-background-color:blue;
+.match{
+margin:2%;
 }
 
+
+.match:nth-child(1){
+border: solid 5px black;
+background-color:#f7f7f9;
+}
+
+#rennes_match{
+/*border: solid 5px black;*/
+margin:10%;
+display:flex;
+flex-flow: wrap column;
+justify-content:center;
+align-items:center;
+
+}
+
+.btn {
+  font-weight: 400;
+   }
+
+.btn-default {
+  color: orange;
+  border: 2px solid black; /*bouton*/
+  background-color: transparent;
+  hover: white;
+   }
+   
+   .bouton_reserver:hover{
+   background-color:#e30a0e;
+   }
