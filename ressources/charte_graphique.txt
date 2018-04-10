@@ -1,4 +1,4 @@
-EAG charte graphique : 
+EAG charte graphique :
 
 rouge	:	#e4010b
 noir	:	#000000

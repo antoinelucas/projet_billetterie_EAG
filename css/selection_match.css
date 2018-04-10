@@ -3,6 +3,15 @@ background-color: #f7f7f9;
 display:flex;
 justify-content:space-around;
 align-items:center;
+flex-wrap:wrap;
+}
+
+.bloc_selection_match:nth-child(2){
+margin:auto;
+}
+
+#fond_accueil{
+width:100%;
 }
 
 #conteneur {
@@ -13,7 +22,7 @@ flex-flow: wrap row;
 }
 
 .match{
-margin:2%;
+margin:2rem;
 }
 
 
@@ -22,9 +31,29 @@ border: solid 5px black;
 background-color:#f7f7f9;
 }
 
-#rennes_match{
+.match:nth-child(2){
+border: solid 5px black;
+background-color:#f7f7f9;
+}
+
+.match:nth-child(3){
+border: solid 5px black;
+background-color:#f7f7f9;
+}
+
+.match:nth-child(4){
+border: solid 5px black;
+background-color:#f7f7f9;
+}
+
+.match:nth-child(5){
+border: solid 5px black;
+background-color:#f7f7f9;
+}
+
+.match_selection{
 /*border: solid 5px black;*/
-margin:10%;
+margin:0.8rem;
 display:flex;
 flex-flow: wrap column;
 justify-content:center;
@@ -37,12 +66,12 @@ align-items:center;
    }
 
 .btn-default {
-  color: orange;
+  color: #e30a0e;
   border: 2px solid black; /*bouton*/
   background-color: transparent;
   hover: white;
    }
-   
+
    .bouton_reserver:hover{
    background-color:#e30a0e;
    }

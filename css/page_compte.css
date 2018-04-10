@@ -1,0 +1,22 @@
+#general-content{
+  display: flex;
+  justify-content: center;
+  /*margin-top: 3%;*/
+}
+
+#general-content-jumbotron{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#change-values{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#alert-values-wrong{
+  display: flex;
+  align-items: flex-end;
+}

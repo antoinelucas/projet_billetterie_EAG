@@ -1,0 +1,15 @@
+#conteneur_panier{
+
+background-color: #f7f7f9;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-flow:wrap column;
+margin-left:5%;
+margin-right:5%;
+
+}
+
+.lien_confirmation{
+color:#e30a0e;
+}

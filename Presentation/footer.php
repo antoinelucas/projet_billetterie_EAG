@@ -5,7 +5,7 @@
  <div id="footergeneral">
       <!--First column-->
       <div >
-        <a href="http://www.eas-sport.fr/EAG/CGV-EAG-2016.html">Mentions légales </a>
+        <a id="liencopyright" href="http://www.eas-sport.fr/EAG/CGV-EAG-2016.html">Mentions légales </a>
       </div>
 
      <div id="marque">
